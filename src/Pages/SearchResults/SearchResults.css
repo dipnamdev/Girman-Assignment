@@ -1,0 +1,43 @@
+.SearchResults {
+
+    padding: 20px;
+  }
+  
+  .SearchResults input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .SearchResults input:focus {
+    border-color: #007bff;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .SearchResults input {
+      width: 90%;
+      font-size: 14px;
+    }
+  
+    .card-conatainer {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .SearchResults input {
+      width: 95%;
+      font-size: 12px;
+    }
+  }
+  
